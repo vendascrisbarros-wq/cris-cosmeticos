@@ -1352,37 +1352,44 @@ main {
 
 @media (max-width: 768px) {
 
-    /* ===== CARRINHO MOBILE ===== */
+    /* ===== MODAL DO CARRINHO ===== */
 
-    .carrinho {
-        width: 95%;
-        padding: 16px;
+    #modal-carrinho {
+        width: 100vw;
+        max-width: 100vw;
+        padding: 12px;
+    }
+
+    /* Conteúdo do carrinho */
+    #carrinho {
+        width: 100%;
         font-size: 1rem;
     }
 
-    .carrinho h2,
-    .carrinho h3 {
+    #carrinho h2,
+    #carrinho h3 {
         font-size: 1.2rem;
     }
 
-    .carrinho p,
-    .carrinho span {
+    #carrinho p,
+    #carrinho span {
         font-size: 1rem;
     }
 
-    .carrinho strong {
+    #carrinho strong {
         font-size: 1.1rem;
     }
 
-    .carrinho button {
+    /* Ações (finalizar, limpar etc) */
+    .acoes-carrinho button {
         width: 100%;
         padding: 14px;
         font-size: 1rem;
         border-radius: 10px;
     }
 
-    .carrinho .item-carrinho {
-        padding: 10px 0;
-        gap: 10px;
+    .acoes-carrinho {
+        gap: 12px;
+        margin-top: 12px;
     }
 }
