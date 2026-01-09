@@ -1349,3 +1349,40 @@ main {
         border-radius: 10px;
     }
 }
+
+@media (max-width: 768px) {
+
+    /* ===== CARRINHO MOBILE ===== */
+
+    .carrinho {
+        width: 95%;
+        padding: 16px;
+        font-size: 1rem;
+    }
+
+    .carrinho h2,
+    .carrinho h3 {
+        font-size: 1.2rem;
+    }
+
+    .carrinho p,
+    .carrinho span {
+        font-size: 1rem;
+    }
+
+    .carrinho strong {
+        font-size: 1.1rem;
+    }
+
+    .carrinho button {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+
+    .carrinho .item-carrinho {
+        padding: 10px 0;
+        gap: 10px;
+    }
+}
